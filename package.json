@@ -1,0 +1,19 @@
+{
+  "name": "a2hostingtest",
+  "version": "1.0.0",
+  "description": "Test voor een API van A2 Hosting",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Test",
+    "NodeJs",
+    "express"
+  ],
+  "author": "Renze Westerink",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
