@@ -8,7 +8,7 @@ const port = 3000;
 
 // Basis test request
 app.get('/api/info', (req, res) => {
-    logger.trace('idex -> /api/info');
+    console.log('idex -> /api/info');
     res.json({
         status: 200,
         message: 'This is the API for the book tracking system of the Droomvallei Uitgeverij.',
@@ -36,7 +36,7 @@ app.use((error, req, res, next) => {
 
 // Activate the API
 app.listen(port, () => {
-    logger.info(`Server is running on port ${port}`);
+    console.log(`Server is running on port ${port}`);
 });
 
 // This export is needed for the tests
